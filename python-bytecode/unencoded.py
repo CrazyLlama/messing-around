@@ -21,13 +21,13 @@ def main():
 		
 		match choice:
 			case "0":
-				check_answers(choice)
+				expand_variable(choice)
 			case "1":
-				check_answers(choice)
+				expand_variable(choice)
 			case "2":
-				check_answers(choice)
+				expand_variable(choice)
 			case "3":
-				check_answers(choice)
+				expand_variable(choice)
 			case "4":
 				print ("\n##############################\nGoodbye!\n##############################\n")
 				time.sleep(1)
